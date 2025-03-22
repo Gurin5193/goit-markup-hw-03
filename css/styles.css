@@ -1,4 +1,4 @@
-/*Загальні стилі Загальні скидання*/
+/*Загальні скидання*/
 
 body {
   font-family: "Roboto", sans-serif;
@@ -17,12 +17,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 h1,
 h2,
 h3,
@@ -31,6 +25,44 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+img {
+  display: block;
+}
+
+/*Загалні стилі*/
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title-headline {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.title-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*Header*/
@@ -113,34 +145,6 @@ p {
   color: #404bbf;
 }
 
-/*Oll for main*/
-
-.title-headline {
-  padding-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
-
-.title-subject {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding-bottom: 8px;
-}
-
-.text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 /*Section 1*/
 
 .section-solutions {
@@ -149,7 +153,6 @@ p {
 
 .section-solutions {
   padding: 188px 0;
-  height: 600px;
 }
 
 .title-heading {
@@ -258,7 +261,8 @@ p {
 /*Footer*/
 
 .logo-footer {
-  padding-bottom: 16px;
+  display: block;
+  margin-bottom: 16px;
 }
 
 .footer-page {
