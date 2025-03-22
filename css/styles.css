@@ -197,12 +197,13 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
+  padding: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
   white-space: nowrap;
+  border: 0;
 }
 
 .section-text {
@@ -221,7 +222,7 @@ img {
 /*Section 3 Team*/
 
 .teammates {
-  border-radius: 0 0 4px 4px;
+  margin: 32px 0;
 }
 
 .list-team {
