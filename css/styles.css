@@ -156,9 +156,7 @@ img {
 }
 
 .title-heading {
-  padding-bottom: 24px;
-
-  margin: 0 auto;
+  margin: 0 auto 24px;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
@@ -222,7 +220,7 @@ img {
 /*Section 3 Team*/
 
 .teammates {
-  padding: 32px 0;
+  margin: 32px 0;
 }
 
 .list-team {
@@ -248,7 +246,6 @@ img {
 }
 
 .text-team {
-  padding-bottom: 32px;
   text-align: center;
 }
 
